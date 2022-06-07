@@ -1,0 +1,22 @@
+{
+  "name": "react-navigation-transition-effect",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "contributors": [
+    {
+      "name": "Bambang Adhitya",
+      "url": "https://github.com/bambang-ap",
+      "githubUsername": "bambang-ap"
+    }
+  ],
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "@react-navigation/stack": "^5.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
