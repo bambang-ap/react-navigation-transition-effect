@@ -11,13 +11,16 @@ type NavigatorOptions = {
   };
 };
 
-export declare function fromLeft(duration?: number): NavigatorOptions;
-export declare function fromTop(duration?: number): NavigatorOptions;
-export declare function fromRight(duration?: number): NavigatorOptions;
-export declare function fromBottom(duration?: number): NavigatorOptions;
-export declare function fadeIn(duration?: number): NavigatorOptions;
-export declare function fadeOut(duration?: number): NavigatorOptions;
-export declare function zoomIn(duration?: number): NavigatorOptions;
-export declare function zoomOut(duration?: number): NavigatorOptions;
-export declare function flipY(duration?: number): NavigatorOptions;
-export declare function flipX(duration?: number): NavigatorOptions;
+declare module 'react-navigation-transition-effect' {
+
+  export function fromLeft(duration?: number): NavigatorOptions;
+  export function fromTop(duration?: number): NavigatorOptions;
+  export function fromRight(duration?: number): NavigatorOptions;
+  export function fromBottom(duration?: number): NavigatorOptions;
+  export function fadeIn(duration?: number): NavigatorOptions;
+  export function fadeOut(duration?: number): NavigatorOptions;
+  export function zoomIn(duration?: number): NavigatorOptions;
+  export function zoomOut(duration?: number): NavigatorOptions;
+  export function flipY(duration?: number): NavigatorOptions;
+  export function flipX(duration?: number): NavigatorOptions;
+}
